@@ -1,0 +1,11 @@
+[
+  {
+    "adapter": "Debugpy",
+    "label": "DEBUG PYTHON DJANGO",
+    "request": "launch",
+    "python": "$ZED_CUSTOM_PYTHON_ACTIVE_ZED_TOOLCHAIN",
+    "args": ["runserver"],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "program": "$ZED_WORKTREE_ROOT/src/manage.py"
+  }
+]
